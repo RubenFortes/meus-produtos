@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #121212;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.imgproduto  {
+    width: 200px;      /* largura fixa */
+    height: 200px;     /* altura fixa */
+    object-fit: cover; /* mantém o enquadramento sem distorcer */
+    display: block;
+    margin: auto;      /* centraliza na div */
+    border-radius: 8px; /* opcional: cantos arredondados */
+}
+
+.precoproduto{
+    color: gold;
+    text-align: center;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Espaço entre os produtos */
+    padding: 20px;
+}
+
+.container {
+    background: #1e1e1e;
+    border-radius: 10px;
+    max-width: 350px;
+    flex: 1 1 300px; /* Permite responsividade */
+    padding: 20px;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 22px;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 16px;
+    margin: 10px 0;
+    text-align: left;
+}
+
+.btn {
+    display: inline-block;
+    background: #28a745;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.btn:hover {
+    background: #218838;
+}
+
+footer {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #aaa;
+}
+
+hr {
+    display: none; /* Não precisamos mais do separador */
+}
